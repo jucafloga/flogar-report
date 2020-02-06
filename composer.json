@@ -1,0 +1,34 @@
+{
+    "name": "flogar/report",
+    "description": "Representacion Impresa",
+    "keywords": ["pdf", "flogar"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jucafloga",
+            "email": "jucafloga@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/jucafloga/flogar-report",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "twig/twig": "~1.0 || ~2.0",
+        "flogar/core": "^1.0",
+        "bacon/bacon-qr-code": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0",
+        "flogar/data": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flogar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Flogar\\": "tests/"
+        }
+    }
+}
